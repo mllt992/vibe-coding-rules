@@ -13,6 +13,8 @@
 npx vibe-coding-rules
 ```
 
+> 也可以用 scope 别名 `npx @xrilang/vibe-coding-rules`,两者内容完全一致。
+
 脚本会:
 - 📄 写入 `CLAUDE.md` + `docs/`(已有 `CLAUDE.md` 时让你当场选合并策略)
 - 🛠 询问 7 个 workflow skill 装到**用户级**(`~/.claude/skills/`,所有项目共用)还是**项目级**(`./.claude/skills/`)
@@ -80,6 +82,7 @@ npx vibe-coding-rules
 ```bash
 # 在目标项目根目录
 npx vibe-coding-rules
+# 或: npx @xrilang/vibe-coding-rules (scope 别名，内容一致)
 ```
 
 **方式 B — 手动复制(无 Node 环境):**

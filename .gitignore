@@ -16,3 +16,13 @@ desktop.ini
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# CLI test artifacts (running `npx vibe-coding-rules` in this repo root generates these)
+# 真实源文件在 template/，根目录的 CLAUDE.md / docs/ 都是测试产物，禁止入库
+/CLAUDE.md
+/docs/
+/.claude/skills/
+
+# npm pack output
+*.tgz
+node_modules/
