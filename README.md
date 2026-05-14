@@ -10,7 +10,7 @@
 在**任意项目根目录**执行一行命令(任何电脑、跨 Win/Mac/Linux):
 
 ```bash
-npx @mllt992/vibe-coding-rules
+npx @xrilang/vibe-coding-rules
 ```
 
 脚本会:
@@ -79,7 +79,7 @@ npx @mllt992/vibe-coding-rules
 
 ```bash
 # 在目标项目根目录
-npx @mllt992/vibe-coding-rules
+npx @xrilang/vibe-coding-rules
 ```
 
 **方式 B — 手动复制(无 Node 环境):**

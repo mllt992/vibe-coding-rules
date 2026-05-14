@@ -1,10 +1,10 @@
 {
-  "name": "@mllt992/vibe-coding-rules",
+  "name": "@xrilang/vibe-coding-rules",
   "version": "0.1.0",
   "description": "AI 辅助开发（vibe coding）工程纲领 —— CLAUDE.md + docs 套件 + 7 个 Claude Code workflow skill。一行 npx 命令接入任意项目。",
   "type": "module",
   "bin": {
-    "vibe-coding-rules": "./bin/cli.mjs"
+    "vibe-coding-rules": "bin/cli.mjs"
   },
   "files": [
     "bin",
