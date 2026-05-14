@@ -1,6 +1,6 @@
 {
   "name": "vibe-coding-rules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI 辅助开发（vibe coding）工程纲领 —— CLAUDE.md + docs 套件 + 7 个 Claude Code workflow skill。一行 npx 命令接入任意项目。",
   "type": "module",
   "bin": {
