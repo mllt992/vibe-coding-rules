@@ -5,6 +5,25 @@
 
 ---
 
+## 🚀 一键接入（npx，推荐）
+
+在**任意项目根目录**执行一行命令(任何电脑、跨 Win/Mac/Linux):
+
+```bash
+npx @mllt992/vibe-coding-rules
+```
+
+脚本会:
+- 📄 写入 `CLAUDE.md` + `docs/`(已有 `CLAUDE.md` 时让你当场选合并策略)
+- 🛠 询问 7 个 workflow skill 装到**用户级**(`~/.claude/skills/`,所有项目共用)还是**项目级**(`./.claude/skills/`)
+- 📝 打印下一步提示
+
+零运行时依赖,Node ≥ 18 即可。
+
+也可以手动 `git clone` 整个仓库使用——见下文。
+
+---
+
 ## 这是什么
 
 一套**项目级别的文档套件**，不是插件、不是 MCP、不是 Skill 文件。
@@ -56,8 +75,22 @@
 
 ### 一、首次接入新项目
 
-1. 把本套件**所有文件**复制到项目根目录（与你的 `src/`、`package.json` 等并列）
-2. 编辑 `CLAUDE.md` 第 0 节，补充本项目的：技术栈、业务领域、代码目录、运行方式
+**方式 A — `npx`(推荐):**
+
+```bash
+# 在目标项目根目录
+npx @mllt992/vibe-coding-rules
+```
+
+**方式 B — 手动复制(无 Node 环境):**
+
+1. `git clone https://github.com/mllt992/vibe-coding-rules.git`
+2. 把 `template/CLAUDE.md` 和 `template/docs/` 复制到目标项目根目录
+3. 把 `template/.claude/skills/workflow-*` 复制到 `~/.claude/skills/`(用户级)或 `<项目>/.claude/skills/`(项目级)
+
+**两种方式接入后必做:**
+
+1. 编辑 `CLAUDE.md` 第 0 节，补充本项目的：技术栈、业务领域、代码目录、运行方式
 3. 浏览 `docs/00_通用规范/`，按本项目实际情况删/改/补示例（**通用规范是技术栈无关的，但项目里通常需要写实例**）
 4. 提交到版本库——规范从此成为项目契约
 

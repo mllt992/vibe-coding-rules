@@ -1,0 +1,41 @@
+{
+  "name": "@mllt992/vibe-coding-rules",
+  "version": "0.1.0",
+  "description": "AI 辅助开发（vibe coding）工程纲领 —— CLAUDE.md + docs 套件 + 7 个 Claude Code workflow skill。一行 npx 命令接入任意项目。",
+  "type": "module",
+  "bin": {
+    "vibe-coding-rules": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "template",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "vibe-coding",
+    "workflow",
+    "skill",
+    "scaffolding",
+    "rules",
+    "convention"
+  ],
+  "author": "mllt992",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mllt992/vibe-coding-rules.git"
+  },
+  "homepage": "https://github.com/mllt992/vibe-coding-rules#readme",
+  "bugs": {
+    "url": "https://github.com/mllt992/vibe-coding-rules/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
